@@ -9,3 +9,9 @@ body, html {
     width: 100%;
     margin: 0;
 }
+
+h2 {
+    color: plum;
+    background-color: black;
+    margin: 0;
+}
