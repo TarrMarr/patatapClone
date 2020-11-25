@@ -49,7 +49,7 @@ Show examples of usage:
 Project is:_finished_
 
 ## Inspiration
-Created with Udemy's Web Developer Bootcamp course with Colt Steele 
+Created with Udemy's Web Developer Bootcamp course with Colt Steele.	
 
 ## Contact
 Created by TarrMarr(https://www.tarrynmarr.me) - feel free to contact me!
