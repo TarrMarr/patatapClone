@@ -1,50 +1,55 @@
 # Project Name
-> Here goes your awesome project description!
+> Patatap Clone
 
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Code Examples](#code-examples)
-* [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+A simple recreation of the Patatap website linking keystroke events with sounds, images and animation
 
 ## Screenshots
-![Example screenshot](https://github.com/TarrMarr/patatapClone/blob/main/screengrab.mp4)
+![Example screenshot](https://github.com/TarrMarr/patatapClone/blob/main/screengrab_Moment.jpg)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
+* HTML5
+* CSS
+* JavaScript
+* Howler JS
+* PaperScript Library
 
 ## Code Examples
 Show examples of usage:
-`put-your-code-here`
+`q: {
+		sound: new Howl({
+  		urls: ['sounds/bubbles.mp3']
+		}),
+		color: '#1abc9c'
+	},
+	w: {
+		sound: new Howl({
+  		urls: ['sounds/clay.mp3']
+		}),
+		color: '#2ecc71'
+	},
+	e: {
+		sound: new Howl({
+  		urls: ['sounds/confetti.mp3']
+		}),
+		color: '#3498db'
+	},`
 
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is:_finished_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Created with Udemy's Web Developer Bootcamp course with Colt Steele 
 
 ## Contact
 Created by TarrMarr(https://www.tarrynmarr.me) - feel free to contact me!
